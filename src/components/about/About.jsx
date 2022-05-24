@@ -1,6 +1,8 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.png'
+import {FaAward, FaUsers} from 'react-icons/fa'
+import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
   return (
@@ -16,7 +18,26 @@ const About = () => {
         </div>
 
         <div className="about__content">
+          <div className="about__cards">
+            <article className='about__card'>
+              <FaAward className="about__icon"></FaAward>
+              <h5>Diploma</h5>
+              <small>Completed software development course</small>
+            </article>
+            <article className='about__card'>
+              <FaUsers className="about__icon"></FaUsers>
+              <h5>Clients</h5>
+              <small>1 Client</small>
+            </article>
+            <article className='about__card'>
+              <VscFolderLibrary className="about__icon"></VscFolderLibrary>
+              <h5>Side Projects</h5>
+              <small>10+ Completed</small>
+            </article>
+          </div>
 
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus fugiat architecto earum sed pariatur. Impedit dolorum, nisi perspiciatis, culpa excepturi molestias ullam unde rerum sequi, natus maiores itaque commodi.</p>
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
