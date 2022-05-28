@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.css'
+// import IMG1 from '../../assets/portfolio1.png'
 
 const Portfolio = () => {
   return (
@@ -9,7 +10,9 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         <article className="portfolio__item">
-          <div className="portfolio__item-image" />
+          <div className="portfolio__item-image">
+
+          </div>
           <h3>This is a portfolio item title</h3>
           <a href="https://github.com/Jonghan-park" className='btn' target="_blank">Github</a>
         </article>
