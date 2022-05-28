@@ -11,7 +11,7 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image" />
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/Jonghan-park" target="_blank">Github</a>
+          <a href="https://github.com/Jonghan-park" className='btn' target="_blank">Github</a>
         </article>
       </div>
     </section>
