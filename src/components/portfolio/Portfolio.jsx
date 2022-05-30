@@ -11,26 +11,32 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className="portfolio__item">
+        <article className="portfolio__items">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="image1" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/Jonghan-park" className='btn' target="_blank">Github</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/Jonghan-park" className='btn' target="_blank">Github</a>
+          </div>
         </article>
-        <article className="portfolio__item">
+        <article className="portfolio__items">
           <div className="portfolio__item-image">
             <img src={IMG2} alt="image2" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/Jonghan-park" className='btn' target="_blank">Github</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/Jonghan-park" className='btn' target="_blank">Github</a>
+          </div>
         </article>
-        <article className="portfolio__item">
+        <article className="portfolio__items">
           <div className="portfolio__item-image">
             <img src={IMG3} alt="image3" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/Jonghan-park" className='btn' target="_blank">Github</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/Jonghan-park" className='btn' target="_blank">Github</a>
+          </div>
         </article>
       </div>
     </section>
