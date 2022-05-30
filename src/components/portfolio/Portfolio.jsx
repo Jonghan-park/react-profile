@@ -18,6 +18,20 @@ const Portfolio = () => {
           <h3>This is a portfolio item title</h3>
           <a href="https://github.com/Jonghan-park" className='btn' target="_blank">Github</a>
         </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG2} alt="image2" />
+          </div>
+          <h3>This is a portfolio item title</h3>
+          <a href="https://github.com/Jonghan-park" className='btn' target="_blank">Github</a>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG3} alt="image3" />
+          </div>
+          <h3>This is a portfolio item title</h3>
+          <a href="https://github.com/Jonghan-park" className='btn' target="_blank">Github</a>
+        </article>
       </div>
     </section>
   )
