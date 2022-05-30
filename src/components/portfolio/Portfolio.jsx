@@ -4,6 +4,26 @@ import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 
+const data = [
+  {
+    id: 1,
+  image: IMG1,
+  title: 'Fruits',
+  github: 'https://github.com/Jonghan-park/fruit-basket',
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: 'News',
+    github: 'https://github.com/Jonghan-park/news',
+  },{
+    id: 3,
+    image: IMG3,
+    title: 'Reviews',
+    github: 'https://github.com/Jonghan-park/reviews',
+  }
+]
+
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -11,33 +31,21 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className="portfolio__items">
+        {
+        data.map(({id, image, title, github})=>{
+          return(
+            <article key={id} className="portfolio__items">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="image1" />
+            <img src={image} alt="image1" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>{title}</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/Jonghan-park" className='btn' target="_blank">Github</a>
+            <a href={github} className='btn' target="_blank">Github</a>
           </div>
         </article>
-        <article className="portfolio__items">
-          <div className="portfolio__item-image">
-            <img src={IMG2} alt="image2" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/Jonghan-park" className='btn' target="_blank">Github</a>
-          </div>
-        </article>
-        <article className="portfolio__items">
-          <div className="portfolio__item-image">
-            <img src={IMG3} alt="image3" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/Jonghan-park" className='btn' target="_blank">Github</a>
-          </div>
-        </article>
+          )
+        })
+        }
       </div>
     </section>
   )
