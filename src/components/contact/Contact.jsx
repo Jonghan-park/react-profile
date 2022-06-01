@@ -12,13 +12,13 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className='contact__option'>
-          <MdOutlineEmail />
+          <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>jonghan.park@edu.sait.ca</h5>
             <a href="mailto:jonghan.park@edu.sait.ca" target="_blank">Send a message</a>
           </article>
           <article className='contact__option'>
-          <BsWhatsapp />
+          <BsWhatsapp className='contact__option-icon' />
             <h4>WhatsApp</h4>
             <h5>+1 (825)712-1504</h5>
             <a href="https://api.whatsapp.com/send?phone=18257121504" target="_blank">Send a message</a>
@@ -28,6 +28,7 @@ const Contact = () => {
               <input type="text" name='name' placeholder='Your Full Name' required />
               <input type="email" name='email' placeholder='Your Email' required />
               <textarea name="message" rows="7" placeholder='Your Message' required />
+              <button type='submit' className='btn btn-primary'>Send Message</button>
             </form>
           </div>
         </div>
