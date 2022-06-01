@@ -13,6 +13,10 @@ const Testimonials = () => {
           <div className="client__avatar">
             <img src={AVTR1} alt="profile picture" />
           </div>
+          <h5 className='client__name'>Ernest Achiever</h5>
+            <small className='client__review'>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia minus temporibus, explicabo esse sapiente pariatur quo odit. Sequi sed est excepturi labore. Porro aut necessitatibus doloribus nemo iure doloremque aspernatur?
+            </small>
         </article>
       </div>
     </section>
