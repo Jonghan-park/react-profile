@@ -23,6 +23,10 @@ const footer = () => {
         <a href="https://github.com/jonghan-park"><FaGithubSquare /></a>
         <a href="https://www.linkedin.com/in/jonghan-park/"><FaLinkedin /></a>
       </div>
+
+      <div className="footer__copyright">
+        <small>&copy; Jonghan Park. All rights reserved.</small>
+      </div>
     </footer>
   )
 }
