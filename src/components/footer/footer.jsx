@@ -1,5 +1,8 @@
 import React from 'react'
 import './footer.css'
+import { FaFacebookF } from 'react-icons/fa'
+import { FaGithubSquare } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
 
 const footer = () => {
   return (
@@ -17,7 +20,8 @@ const footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://"></a>
+        <a href="https://github.com/jonghan-park"><FaGithubSquare /></a>
+        <a href="https://www.linkedin.com/in/jonghan-park/"><FaLinkedin /></a>
       </div>
     </footer>
   )
