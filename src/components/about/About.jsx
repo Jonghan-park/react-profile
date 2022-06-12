@@ -36,7 +36,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus fugiat architecto earum sed pariatur. Impedit dolorum, nisi perspiciatis, culpa excepturi molestias ullam unde rerum sequi, natus maiores itaque commodi.</p>
+          <p>Student passionate of learning full-stack development. Experienced with school projects and assignments made with various programming languages. Knowledge in numerous programming languages including JAVA, JavaScript, HTML, CSS, Bootstrap, SQL, PL/SQL, JSP/SERVLET. </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
