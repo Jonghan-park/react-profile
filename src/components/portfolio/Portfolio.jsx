@@ -9,18 +9,20 @@ const data = [
     id: 1,
   image: IMG1,
   title: 'Fruits - React(useState)',
-  body: 'This is the project for getting used to useState. A data has fruits ',
+  body: 'This is the project for getting used to useState. A data has fruits, and data is mapped in a list class.',
   github: 'https://github.com/Jonghan-park/fruit-basket',
   },
   {
     id: 2,
     image: IMG2,
     title: 'News',
+    body: 'This is the project for getting used to useState and useEffect. News is loaded from news api source.',
     github: 'https://github.com/Jonghan-park/news',
   },{
     id: 3,
     image: IMG3,
     title: 'Reviews',
+    body: 'This is the project for getting used to useState and useEffect. News is loaded from news api source.',
     github: 'https://github.com/Jonghan-park/reviews',
   }
 ]
