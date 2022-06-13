@@ -22,7 +22,7 @@ const data = [
     id: 3,
     image: IMG3,
     title: 'Reviews',
-    body: 'This is the project for getting used to useState and useEffect. News is loaded from news api source.',
+    body: 'This is the project for getting used to useState. data is loaded from a data class.',
     github: 'https://github.com/Jonghan-park/reviews',
   }
 ]
