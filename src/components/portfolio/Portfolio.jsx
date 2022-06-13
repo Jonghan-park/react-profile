@@ -15,13 +15,13 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'News',
+    title: 'News - React(useState & useEffect)',
     body: 'This is the project for getting used to useState and useEffect. News is loaded from news api source.',
     github: 'https://github.com/Jonghan-park/news',
   },{
     id: 3,
     image: IMG3,
-    title: 'Reviews',
+    title: 'Reviews - React(useState)',
     body: 'This is the project for getting used to useState. data is loaded from a data class.',
     github: 'https://github.com/Jonghan-park/reviews',
   }
