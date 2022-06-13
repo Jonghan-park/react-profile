@@ -3,27 +3,34 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
+import IMG4 from '../../assets/portfolio4.png'
 
 const data = [
   {
     id: 1,
   image: IMG1,
   title: 'Fruits - React(useState)',
-  body: 'This is the project for getting used to useState. A data has fruits, and data is mapped in a list class.',
+  body: 'This is the project for getting used to useState. A data has fruits, and data is mapped in a list class.(Detail will be added)',
   github: 'https://github.com/Jonghan-park/fruit-basket',
   },
   {
     id: 2,
     image: IMG2,
     title: 'News - React(useState & useEffect)',
-    body: 'This is the project for getting used to useState and useEffect. News is loaded from news api source.',
+    body: 'This is the project for getting used to useState and useEffect. News is loaded from news api source.(Detail will be added)',
     github: 'https://github.com/Jonghan-park/news',
   },{
     id: 3,
     image: IMG3,
     title: 'Reviews - React(useState)',
-    body: 'This is the project for getting used to useState. data is loaded from a data class.',
+    body: 'This is the project for getting used to useState. data is loaded from a data class.(Detail will be added)',
     github: 'https://github.com/Jonghan-park/reviews',
+  },{
+    id: 4,
+    image: IMG4,
+    title: 'Pizza Website - React(Front-end)',
+    body: 'This is the project for getting used to React front-end job.(Detail will be added)',
+    github: 'https://github.com/Jonghan-park/React_pizza/tree/master/front-pizza',
   }
 ]
 
