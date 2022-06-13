@@ -8,7 +8,8 @@ const data = [
   {
     id: 1,
   image: IMG1,
-  title: 'Fruits',
+  title: 'Fruits - React(useState)',
+  body: 'This is the project for getting used to useState. A data has fruits ',
   github: 'https://github.com/Jonghan-park/fruit-basket',
   },
   {
@@ -32,13 +33,15 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-        data.map(({id, image, title, github})=>{
+        data.map(({id, image, title, body, github})=>{
           return(
             <article key={id} className="portfolio__items">
           <div className="portfolio__item-image">
             <img src={image} alt="image1" />
           </div>
           <h3>{title}</h3>
+          <h4>{body}</h4>
+          <br />
           <div className="portfolio__item-cta">
             <a href={github} className='btn' target="_blank">Github</a>
           </div>
