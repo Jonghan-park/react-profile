@@ -53,7 +53,7 @@ const data = [
     image: IMG7,
     title: 'Medical appointment system (Capstone project) - JAVA (Full-stack)',
     body: 'This is the project which is used JSP/Servlet, HTML, CSS, Bootstrap and MySql. I completed the project in a software development course from SAIT (Detail will be added)',
-    github: 'https://github.com/Jonghan-park/mern-project-manager',
+    github: 'https://github.com/Jonghan-park/Medical-appointment-system',
   },{
     id: 8,
     image: IMG8,
