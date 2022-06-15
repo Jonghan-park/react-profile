@@ -6,6 +6,9 @@ import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.png'
+import IMG7 from '../../assets/empty-image.png'
+import IMG8 from '../../assets/portfolio8.png'
+import IMG9 from '../../assets/empty-image.png'
 
 const data = [
   {
@@ -45,6 +48,24 @@ const data = [
     title: 'College Website - HTML and CSS(Front-end)',
     body: 'This is the project for getting used to HTML and CSS (Detail will be added)',
     github: 'https://github.com/Jonghan-park/HTML_University',
+  },{
+    id: 7,
+    image: IMG7,
+    title: 'Medical appointment system (Capstone project) - JSP/Servlet(Full-stack)',
+    body: 'This is the project which is used JSP/Servlet, HTML, CSS, Bootstrap and MySql. I completed the project in a software development course from SAIT (Detail will be added)',
+    github: 'https://github.com/Jonghan-park/mern-project-manager',
+  },{
+    id: 8,
+    image: IMG8,
+    title: 'CB Drive inn(Restaurant app with a client) - React(front-end) // In progress',
+    body: 'This is the project which is used React, and it is my first project with a client. An address of this project is in the button down below. (Detail will be added)',
+    github: 'https://cb-drive-inn.netlify.app/',
+  },{
+    id: 9,
+    image: IMG9,
+    title: 'Project Manager - MERN(Full-stack) // In progress',
+    body: 'This is the project which is used React, Node.js, Express and MongoDB for getting used to Full-stack development (Detail will be added)',
+    github: 'https://github.com/Jonghan-park/mern-project-manager',
   }
 ]
 
