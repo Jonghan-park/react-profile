@@ -42,7 +42,7 @@ const data = [
   },{
     id: 6,
     image: IMG6,
-    title: 'SAIT Website - HTML and CSS(Front-end)',
+    title: 'College Website - HTML and CSS(Front-end)',
     body: 'This is the project for getting used to HTML and CSS (Detail will be added)',
     github: 'https://github.com/Jonghan-park/HTML_University',
   }
