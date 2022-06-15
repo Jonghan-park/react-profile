@@ -5,6 +5,7 @@ import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
+import IMG6 from '../../assets/portfolio6.png'
 
 const data = [
   {
@@ -38,6 +39,12 @@ const data = [
     title: 'Restaurant Website - React(Front-end)',
     body: 'This is the project for getting used to React front-end job.(Detail will be added)',
     github: 'https://github.com/Jonghan-park/restaurant-app',
+  },{
+    id: 6,
+    image: IMG6,
+    title: 'SAIT Website - HTML and CSS(Front-end)',
+    body: 'This is the project for getting used to HTML and CSS (Detail will be added)',
+    github: 'https://github.com/Jonghan-park/HTML_University',
   }
 ]
 
