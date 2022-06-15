@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Profile (React.js)
+https://jonghan-profile.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Period
+14 May, 2022
 
-## Available Scripts
+# Puporse
+The project of purpose is to let others know what I can do and what skills I have.
 
-In the project directory, you can run:
+# Environment
+Used : React.js, CSS  
+IDE : Visual Studio Code
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
- has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Sample screenshots 
+![Screen Shot 2022-06-14 at 6 15 20 PM](https://user-images.githubusercontent.com/90344204/173710317-d9df29b8-0882-4e71-a5eb-d5446074be4b.png)
+![Screen Shot 2022-06-14 at 6 15 35 PM](https://user-images.githubusercontent.com/90344204/173710324-5aa5f62d-3d42-4941-aa63-db7ec90c163f.png)
+![Screen Shot 2022-06-14 at 6 16 04 PM](https://user-images.githubusercontent.com/90344204/173710328-c0849541-be89-4737-9756-1d90f77f612b.png)
+![Screen Shot 2022-06-14 at 6 16 16 PM](https://user-images.githubusercontent.com/90344204/173710333-34243ded-547d-4a2b-b1c0-2badc95260b9.png)
+![Screen Shot 2022-06-14 at 6 16 32 PM](https://user-images.githubusercontent.com/90344204/173710338-42b57f68-1a43-4af0-8ade-137fb79a4a7a.png)
