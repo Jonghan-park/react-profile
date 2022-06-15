@@ -6,7 +6,7 @@ import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.png'
-import IMG7 from '../../assets/empty-image.png'
+import IMG7 from '../../assets/portfolio7.png'
 import IMG8 from '../../assets/portfolio8.png'
 import IMG9 from '../../assets/empty-image.png'
 
@@ -51,7 +51,7 @@ const data = [
   },{
     id: 7,
     image: IMG7,
-    title: 'Medical appointment system (Capstone project) - JSP/Servlet(Full-stack)',
+    title: 'Medical appointment system (Capstone project) - JAVA (Full-stack)',
     body: 'This is the project which is used JSP/Servlet, HTML, CSS, Bootstrap and MySql. I completed the project in a software development course from SAIT (Detail will be added)',
     github: 'https://github.com/Jonghan-park/mern-project-manager',
   },{
