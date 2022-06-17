@@ -15,6 +15,12 @@ const data = [
     body: 'The project used React hooks useState and useEffect, and the purpose of the project is to accomplish client’s requirement which motivates customers to be interested in the restaurant. The customer can visit the web application to explorer menus and some info in terms of the restaurant. (Updating back-end features in progress)',
     demo: 'https://cb-drive-inn.netlify.app/',
   },{
+    id: 7,
+    image: IMG9,
+    title: 'Project Management',
+    body: 'This is the project which is used React, Node.js, Express and MongoDB for getting used to Full-stack development (Detail will be added)',
+    github: 'https://github.com/Jonghan-park/mern-project-manager',
+  },{
     id: 2,
     image: IMG7,
     title: 'Medical appointment system',
@@ -34,14 +40,9 @@ const data = [
     image: IMG3,
     title: 'Reviews',
     skills: 'React, HTML, CSS',
-    body: 'This is the project for getting used to useState. data is loaded from a data class.(Detail will be added)',
+    body: 'The project used React hooks useState. Each review is displayed on a form with image, name, job title and review. The form has left and right arrow to change next review, and the Surprise Me will show random review on the dataset. ',
     github: 'https://github.com/Jonghan-park/reviews',
-  },{
-    id: 7,
-    image: IMG9,
-    title: 'Project Manager - MERN(Full-stack) // In progress',
-    body: 'This is the project which is used React, Node.js, Express and MongoDB for getting used to Full-stack development (Detail will be added)',
-    github: 'https://github.com/Jonghan-park/mern-project-manager',
+    demo: 'https://jonghan-reviews.netlify.app',
   }
 ]
 
