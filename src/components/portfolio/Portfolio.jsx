@@ -1,11 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
-import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
-import IMG4 from '../../assets/portfolio4.png'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.png'
 import IMG7 from '../../assets/portfolio7.png'
 import IMG8 from '../../assets/portfolio8.png'
 import IMG9 from '../../assets/empty-image.png'
@@ -16,7 +12,7 @@ const data = [
     image: IMG8,
     title: 'CB Drive inn(Restaurant app with a client) ',
     skills: 'React, HTML, CSS',
-    body: 'This is the project which is used React, and it is my first project with a client. An address of this project is in the button down below. (Detail will be added)',
+    body: 'The project used React hooks useState and useEffect, and the purpose of the project is to accomplish client’s requirement which motivates customers to be interested in the restaurant. The customer can visit the web application to explorer menus and some info in terms of the restaurant. (Updating back-end features in progress)',
     demo: 'https://cb-drive-inn.netlify.app/',
   },{
     id: 2,
@@ -40,25 +36,6 @@ const data = [
     skills: 'React, HTML, CSS',
     body: 'This is the project for getting used to useState. data is loaded from a data class.(Detail will be added)',
     github: 'https://github.com/Jonghan-park/reviews',
-  },{
-    id: 5,
-    image: IMG4,
-    title: 'Pizza Website',
-    skills: 'React, HTML, CSS',
-    body: 'This is the project for getting used to React front-end job.(Detail will be added)',
-    github: 'https://github.com/Jonghan-park/React_pizza/tree/master/front-pizza',
-  },{
-    id: 6,
-    image: IMG5,
-    title: 'Restaurant Website - React(Front-end)',
-    body: 'This is the project for getting used to React front-end job.(Detail will be added)',
-    github: 'https://github.com/Jonghan-park/restaurant-app',
-  },{
-    id: 6,
-    image: IMG6,
-    title: 'College Website - HTML and CSS(Front-end)',
-    body: 'This is the project for getting used to HTML and CSS (Detail will be added)',
-    github: 'https://github.com/Jonghan-park/HTML_University',
   },{
     id: 7,
     image: IMG9,
