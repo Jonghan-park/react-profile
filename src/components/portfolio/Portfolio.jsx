@@ -14,9 +14,11 @@ const data = [
   {
     id: 1,
   image: IMG1,
-  title: 'Fruits - React(useState)',
-  body: 'This is the project for getting used to useState. A data has fruits, and data is mapped in a list class.(Detail will be added)',
+  title: 'Fruits',
+  skills: 'React, HTML, CSS',
+  body: 'The project used React hooks useState. Each item is loaded from data.js which has 4 different kinds of fruits including id, name, quantities and image and displays on a form from a list component.',
   github: 'https://github.com/Jonghan-park/fruit-basket',
+  demo: 'https://jonghan-fruit.netlify.app/',
   },
   {
     id: 2,
@@ -51,8 +53,8 @@ const data = [
   },{
     id: 7,
     image: IMG7,
-    title: 'Medical appointment system (Capstone project) - JAVA (Full-stack)',
-    body: 'This is the project which is used JSP/Servlet, HTML, CSS, Bootstrap and MySql. I completed the project in a software development course from SAIT (Detail will be added)',
+    title: 'Medical appointment system - JAVA (Full-stack)',
+    body: 'This is the project which is used JSP/Servlet, HTML, CSS, Bootstrap and MySql. (Detail will be added)',
     github: 'https://github.com/Jonghan-park/Medical-appointment-system',
   },{
     id: 8,
@@ -77,17 +79,18 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-        data.map(({id, image, title, body, github})=>{
+        data.map(({id, image, title, skills, body, github, demo})=>{
           return(
             <article key={id} className="portfolio__items">
           <div className="portfolio__item-image">
             <img src={image} alt="image1" />
           </div>
-          <h3>{title}</h3>
+          <h3>{title} - {skills}</h3>
           <h4>{body}</h4>
           <br />
           <div className="portfolio__item-cta">
             <a href={github} className='btn' target="_blank">Github</a>
+            <a href={demo} className='btn' target="_blank">Demo</a>
           </div>
         </article>
           )
