@@ -31,8 +31,8 @@ const Contact = () => {
           <article className='contact__option'>
           <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>
-            <h5>jonghan.park@edu.sait.ca</h5>
-            <a href="mailto:jonghan.park@edu.sait.ca" target="_blank">Send a message</a>
+            <h5>pjh843@gmail.com</h5>
+            <a href="mailto:pjh843@gmail.com" target="_blank">Send a message</a>
           </article>
           <article className='contact__option'>
           <BsWhatsapp className='contact__option-icon' />
