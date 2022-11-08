@@ -1,13 +1,12 @@
-import React from 'react'
-import Header from './components/Header/Header'
-import Nav from './components/Nav/Nav'
-import About from './components/About/About'
-import Experience from './components/Experience/Experience'
-import Portfolio from './components/Portfolio/Portfolio'
-import Testimonials from './components/Testimonials/Testimonials'
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/footer'
- 
+import React from "react";
+import Header from "./components/header/Header";
+import Nav from "./components/nav/Nav";
+import About from "./components/about/About";
+import Experience from "./components/experience/Experience";
+import Portfolio from "./components/portfolio/Portfolio";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/footer";
+
 const App = () => {
   return (
     <div>
@@ -16,11 +15,10 @@ const App = () => {
       <About />
       <Experience />
       <Portfolio />
-      <Testimonials />
       <Contact />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default App;
