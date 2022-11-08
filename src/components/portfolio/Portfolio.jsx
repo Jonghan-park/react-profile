@@ -4,7 +4,10 @@ import IMG1 from "../../assets/portfolio1.png";
 import IMG3 from "../../assets/portfolio3.png";
 import IMG7 from "../../assets/portfolio7.png";
 import IMG8 from "../../assets/portfolio8.png";
-import IMG9 from "../../assets/empty-image.png";
+import IMG9 from "../../assets/portfolio9.png";
+import IMG10 from "../../assets/portfolio10.png";
+import IMG11 from "../../assets/portfolio11.png";
+import IMG12 from "../../assets/portfolio12.png";
 
 const data = [
   {
@@ -40,6 +43,42 @@ const data = [
     body: "The project used React hooks useState. Each review is displayed on a form with image, name, job title and review. The form has left and right arrow to change next review, and the Surprise Me will show random review on the dataset. ",
     github: "https://github.com/Jonghan-park/reviews",
     demo: "https://jonghan-reviews.netlify.app",
+  },
+  {
+    id: 5,
+    image: IMG9,
+    title: "Menus",
+    skills: "React, HTML, CSS",
+    body: "The project used React hooks useState. ",
+    github: "https://github.com/Jonghan-park/menus",
+    demo: "https://menus-jonghan.netlify.app",
+  },
+  {
+    id: 6,
+    image: IMG10,
+    title: "Cart - food order",
+    skills: "React, Redux, HTML, CSS",
+    body: "The project used React hooks useState and redux ",
+    github: "https://github.com/Jonghan-park/FoodOrder",
+    demo: "https://cart-jonghan.netlify.app",
+  },
+  {
+    id: 7,
+    image: IMG11,
+    title: "Grocery list",
+    skills: "React, HTML, CSS",
+    body: "The project used React hooks useState. ",
+    github: "https://github.com/Jonghan-park/grocery-list",
+    demo: "https://grocery-list-jonghan.netlify.app",
+  },
+  {
+    id: 8,
+    image: IMG12,
+    title: "Contact manager",
+    skills: "React, Redux HTML, CSS",
+    body: "The project used React hooks useState and redux ",
+    github: "https://github.com/Jonghan-park/redux-crud-project",
+    demo: "https://contact-manager-jonghan.netlify.app",
   },
 ];
 
