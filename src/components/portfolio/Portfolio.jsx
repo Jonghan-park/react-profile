@@ -16,7 +16,7 @@ const data = [
     title: "CB Drive inn(Restaurant app with a client) ",
     skills: "React, HTML, CSS",
     body: "The project used React hooks useState and useEffect, and the purpose of the project is to accomplish client’s requirement which motivates customers to be interested in the restaurant. The customer can visit the web application to explorer menus and some info in terms of the restaurant. (Updating back-end features in progress)",
-    demo: "https://cb--drive--inn.netlify.app/",
+    demo: "https://cb-drive-inn-client.onrender.com",
   },
   {
     id: 2,
