@@ -8,6 +8,7 @@ import IMG9 from "../../assets/portfolio9.png";
 import IMG10 from "../../assets/portfolio10.png";
 import IMG11 from "../../assets/portfolio11.png";
 import IMG12 from "../../assets/portfolio12.png";
+import IMG13 from "../../assets/portfolio13.png";
 
 const data = [
   {
@@ -15,7 +16,7 @@ const data = [
     image: IMG8,
     title: "CB Drive inn(Restaurant app with a client) ",
     skills: "React, HTML, CSS",
-    body: "The project used React hooks useState and useEffect, and the purpose of the project is to accomplish client’s requirement which motivates customers to be interested in the restaurant. The customer can visit the web application to explorer menus and some info in terms of the restaurant. (Updating back-end features in progress)",
+    body: "The project used React hooks useState and useEffect, and the purpose of the project is to accomplish client’s requirement which motivates customers to be interested in the restaurant. The customer can visit the web application to explorer menus and some info in terms of the restaurant.",
     demo: "https://cb-drive-inn-client.onrender.com",
   },
   {
@@ -23,11 +24,19 @@ const data = [
     image: IMG7,
     title: "Medical appointment system",
     skills: "HTML, CSS, MySQL, JSP/Servlet, AWS(EC2, S3, RDS)",
-    body: "This is the project which is used JSP/Servlet, HTML, CSS, Bootstrap and MySql. (Detail will be added)",
+    body: "This is the project which is used JSP/Servlet, HTML, CSS, Bootstrap and MySql. This project was completed with 7 group members in school as a capstone project. Our group members tried to use what we learned in school and implement lots of functions in the application including security.",
     github: "https://github.com/Jonghan-park/Medical-appointment-system",
   },
   {
     id: 3,
+    image: IMG13,
+    title: "Todo web app",
+    skills: "React, HTML, CSS, Node, MongoDB",
+    body: "The project has CRUD functions for adding, crossing the line and deleting a todo. ",
+    demo: "https://todo-jonghan-frontend.onrender.com/",
+  },
+  {
+    id: 4,
     image: IMG1,
     title: "Fruits",
     skills: "React, HTML, CSS",
@@ -36,7 +45,7 @@ const data = [
     demo: "https://jonghan-fruit.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     image: IMG3,
     title: "Reviews",
     skills: "React, HTML, CSS",
@@ -45,7 +54,7 @@ const data = [
     demo: "https://jonghan-reviews.netlify.app",
   },
   {
-    id: 5,
+    id: 6,
     image: IMG9,
     title: "Menus",
     skills: "React, HTML, CSS",
@@ -54,7 +63,7 @@ const data = [
     demo: "https://menus-jonghan.netlify.app",
   },
   {
-    id: 6,
+    id: 7,
     image: IMG10,
     title: "Cart - food order",
     skills: "React, Redux, HTML, CSS",
@@ -63,7 +72,7 @@ const data = [
     demo: "https://cart-jonghan.netlify.app",
   },
   {
-    id: 7,
+    id: 8,
     image: IMG11,
     title: "Grocery list",
     skills: "React, HTML, CSS",
@@ -72,7 +81,7 @@ const data = [
     demo: "https://grocery-list-jonghan.netlify.app",
   },
   {
-    id: 8,
+    id: 9,
     image: IMG12,
     title: "Contact manager",
     skills: "React, Redux HTML, CSS",
