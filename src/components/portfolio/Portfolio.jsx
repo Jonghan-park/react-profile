@@ -16,6 +16,7 @@ const data = [
     title: "CB Drive inn(Restaurant app with a client) ",
     skills: "React, HTML, CSS",
     body: "The project used React hooks useState and useEffect, and the purpose of the project is to accomplish client’s requirement which motivates customers to be interested in the restaurant. The customer can visit the web application to explorer menus and some info in terms of the restaurant. The web server can be delayed to be turned on for a minute. It needs about 30 seconds to be turned on.",
+    github: "https://github.com/Jonghan-park/CB-Drive-inn-v3",
     demo: "https://cb-drive-inn-client.onrender.com",
   },
   {
@@ -32,6 +33,7 @@ const data = [
     title: "Todo web app",
     skills: "React, HTML, CSS, Node, MongoDB",
     body: "The project has CRUD functions for adding, crossing the line and deleting a todo. The web server can be delayed to be turned on for a minute. It needs about 30 seconds to be turned on.",
+    github: "https://github.com/Jonghan-park/mern_todo_app",
     demo: "https://todo-jonghan-frontend.onrender.com/",
   },
   {
@@ -40,6 +42,7 @@ const data = [
     title: "AskMeAnything app - ChatGPT",
     skills: "Javascript, HTML, CSS, ChatGPT",
     body: "The app developed for having a conversation with ChatGPT technology, and users can ask anything by typing their questions on input field. ChatGPT is able to answer or provide some solutions about coding, so users can solve their coding problem with the ChatGPT. The web server can be delayed to be turned on for a minute. It needs about 30 seconds to be turned on.",
+    github: "https://github.com/Jonghan-park/openAI_codeX",
     demo: "https://askmeanything-codex.onrender.com/",
   },
   {
