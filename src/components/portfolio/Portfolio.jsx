@@ -1,7 +1,5 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.png";
-import IMG3 from "../../assets/portfolio3.png";
 import IMG7 from "../../assets/portfolio7.png";
 import IMG8 from "../../assets/portfolio8.png";
 import IMG9 from "../../assets/portfolio9.png";
@@ -9,6 +7,7 @@ import IMG10 from "../../assets/portfolio10.png";
 import IMG11 from "../../assets/portfolio11.png";
 import IMG12 from "../../assets/portfolio12.png";
 import IMG13 from "../../assets/portfolio13.png";
+import IMG14 from "../../assets/portfolio14.png";
 
 const data = [
   {
@@ -16,7 +15,7 @@ const data = [
     image: IMG8,
     title: "CB Drive inn(Restaurant app with a client) ",
     skills: "React, HTML, CSS",
-    body: "The project used React hooks useState and useEffect, and the purpose of the project is to accomplish client’s requirement which motivates customers to be interested in the restaurant. The customer can visit the web application to explorer menus and some info in terms of the restaurant.",
+    body: "The project used React hooks useState and useEffect, and the purpose of the project is to accomplish client’s requirement which motivates customers to be interested in the restaurant. The customer can visit the web application to explorer menus and some info in terms of the restaurant. The web server can be delayed to be turned on for a minute. It needs about 30 seconds to be turned on.",
     demo: "https://cb-drive-inn-client.onrender.com",
   },
   {
@@ -32,26 +31,16 @@ const data = [
     image: IMG13,
     title: "Todo web app",
     skills: "React, HTML, CSS, Node, MongoDB",
-    body: "The project has CRUD functions for adding, crossing the line and deleting a todo. ",
+    body: "The project has CRUD functions for adding, crossing the line and deleting a todo. The web server can be delayed to be turned on for a minute. It needs about 30 seconds to be turned on.",
     demo: "https://todo-jonghan-frontend.onrender.com/",
   },
   {
     id: 4,
-    image: IMG1,
-    title: "Fruits",
-    skills: "React, HTML, CSS",
-    body: "The project used React hooks useState. Each item is loaded from data.js which has 4 different kinds of fruits including id, name, quantities and image and displays on a form from a list component.",
-    github: "https://github.com/Jonghan-park/fruit-basket",
-    demo: "https://jonghan-fruit.netlify.app/",
-  },
-  {
-    id: 5,
-    image: IMG3,
-    title: "Reviews",
-    skills: "React, HTML, CSS",
-    body: "The project used React hooks useState. Each review is displayed on a form with image, name, job title and review. The form has left and right arrow to change next review, and the Surprise Me will show random review on the dataset. ",
-    github: "https://github.com/Jonghan-park/reviews",
-    demo: "https://jonghan-reviews.netlify.app",
+    image: IMG14,
+    title: "AskMeAnything app - ChatGPT",
+    skills: "Javascript, HTML, CSS, ChatGPT",
+    body: "The app developed for having a conversation with ChatGPT technology, and users can ask anything by typing their questions on input field. ChatGPT is able to answer or provide some solutions about coding, so users can solve their coding problem with the ChatGPT. The web server can be delayed to be turned on for a minute. It needs about 30 seconds to be turned on.",
+    demo: "https://askmeanything-codex.onrender.com/",
   },
   {
     id: 6,
