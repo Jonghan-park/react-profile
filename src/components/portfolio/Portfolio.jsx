@@ -8,6 +8,7 @@ import IMG11 from "../../assets/portfolio11.png";
 import IMG12 from "../../assets/portfolio12.png";
 import IMG13 from "../../assets/portfolio13.png";
 import IMG14 from "../../assets/portfolio14.png";
+import IMG15 from "../../assets/portfolio15.png";
 
 const data = [
   {
@@ -29,15 +30,24 @@ const data = [
   },
   {
     id: 3,
+    image: IMG15,
+    title: "Todo list (PostgreSQL)",
+    skills: "React, HTML, CSS, Node, PostgreSQL",
+    body: "The project has CRUD functions for adding, editing and deleting a todo. The web server can be delayed to be turned on for a minute. It might take 30 seconds to fetch a todo list from a database.",
+    github: "https://github.com/Jonghan-park/pern-todo",
+    demo: "https://pern-todo-av96.onrender.com/",
+  },
+  {
+    id: 4,
     image: IMG13,
-    title: "Todo web app",
+    title: "Todo list (MongoDB)",
     skills: "React, HTML, CSS, Node, MongoDB",
     body: "The project has CRUD functions for adding, crossing the line and deleting a todo. The web server can be delayed to be turned on for a minute. It needs about 30 seconds to be turned on.",
     github: "https://github.com/Jonghan-park/mern_todo_app",
     demo: "https://todo-jonghan-frontend.onrender.com/",
   },
   {
-    id: 4,
+    id: 5,
     image: IMG14,
     title: "AskMeAnything app - ChatGPT",
     skills: "Javascript, HTML, CSS, ChatGPT",
