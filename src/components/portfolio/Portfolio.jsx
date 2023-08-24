@@ -9,19 +9,31 @@ import IMG12 from "../../assets/portfolio12.png";
 import IMG13 from "../../assets/portfolio13.png";
 import IMG14 from "../../assets/portfolio14.png";
 import IMG15 from "../../assets/portfolio15.png";
+import IMG16 from "../../assets/portfolio16.png";
 
 const data = [
   {
+    
     id: 1,
+    image: IMG16,
+    title: "Van portal",
+    skills: "Javascript, React, HTML, CSS, PostgreSql",
+    body: "Van portal provides useful information for residence of Vancouver such as weather, public washroom, free or low cost food, traffic cam. Each map needs a permission to show user's location on the map. User can register our web application and also login their account.",
+    github: "https://github.com/Jonghan-park/van_portal",
+    demo: "https://van-portal.onrender.com/",
+  },
+  {
+    
+    id: 2,
     image: IMG8,
     title: "CB Drive inn(Restaurant app with a client) ",
-    skills: "React, HTML, CSS",
+    skills: "Javascript, React, HTML, CSS",
     body: "The project used React hooks useState and useEffect, and the purpose of the project is to accomplish client’s requirement which motivates customers to be interested in the restaurant. The customer can visit the web application to explorer menus and some info in terms of the restaurant. The web server can be delayed to be turned on for a minute. It needs about 30 seconds to be turned on.",
     github: "https://github.com/Jonghan-park/CB-Drive-inn-v3",
     demo: "https://cb-drive-inn-client.onrender.com",
   },
   {
-    id: 2,
+    id: 3,
     image: IMG7,
     title: "Medical appointment system",
     skills: "HTML, CSS, MySQL, JSP/Servlet, AWS(EC2, S3, RDS)",
@@ -29,7 +41,7 @@ const data = [
     github: "https://github.com/Jonghan-park/Medical-appointment-system",
   },
   {
-    id: 3,
+    id: 4,
     image: IMG15,
     title: "Todo list (PostgreSQL)",
     skills: "React, HTML, CSS, Node, PostgreSQL",
@@ -38,7 +50,7 @@ const data = [
     demo: "https://pern-todo-av96.onrender.com/",
   },
   {
-    id: 4,
+    id: 5,
     image: IMG13,
     title: "Todo list (MongoDB)",
     skills: "React, HTML, CSS, Node, MongoDB",
@@ -47,7 +59,7 @@ const data = [
     demo: "https://todo-jonghan-frontend.onrender.com/",
   },
   {
-    id: 5,
+    id: 6,
     image: IMG14,
     title: "AskMeAnything app - ChatGPT",
     skills: "Javascript, HTML, CSS, ChatGPT",
@@ -56,7 +68,7 @@ const data = [
     demo: "https://askmeanything-codex.onrender.com/",
   },
   {
-    id: 6,
+    id: 7,
     image: IMG9,
     title: "Menus",
     skills: "React, HTML, CSS",
@@ -65,7 +77,7 @@ const data = [
     demo: "https://menus-jonghan.netlify.app",
   },
   {
-    id: 7,
+    id: 8,
     image: IMG10,
     title: "Cart - food order",
     skills: "React, Redux, HTML, CSS",
@@ -74,7 +86,7 @@ const data = [
     demo: "https://cart-jonghan.netlify.app",
   },
   {
-    id: 8,
+    id: 9,
     image: IMG11,
     title: "Grocery list",
     skills: "React, HTML, CSS",
@@ -83,7 +95,7 @@ const data = [
     demo: "https://grocery-list-jonghan.netlify.app",
   },
   {
-    id: 9,
+    id: 10,
     image: IMG12,
     title: "Contact manager",
     skills: "React, Redux HTML, CSS",
